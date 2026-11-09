@@ -1,0 +1,82 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Teacher-only material — never commit to the student repository
+*TEACHER*
+*_KEY*
+*ANSWER*
+solution/
+reveals.py
+make_task.py
+teacher_key.py
+
+# Student marks — never commit to a student-facing repository
+*[Mm]arks*.xlsx
+*[Gg]rades*.xlsx
+
+# Student output from the week 3 starters
+week3/assignments/partD_figure.png
+week3/assignments/partC_palette.png
+week3/assignments/popout_panels.png
+
+# Student output from the week 5 tasks
+week5/assignments/_geolib_selfcheck.png
+week5/assignments/partD_bubble.png
+week5/assignments/partD_pcp.png
+week5/assignments/partD_choropleth.png
+week5/assignments/partC_reader_results.csv
+week5/assignments/partF_map.png
+
+# Student output from the week 4 starters
+week4/assignments/partD_figure.png
+week4/assignments/partF_cycle.png
+week4/assignments/stimulus_pie.png
+week4/assignments/stimulus_bars.png
+week4/assignments/pie_ranking_results.csv
+week4/assignments/_tslib_selfcheck.png
+
+# Student output from the week 6 class task
+week6/assignments/_selfcheck.png
+week6/assignments/clean/
+week6/assignments/partA_audit.txt
+week6/assignments/partA_decisions.md
+week6/assignments/partB_1.png
+week6/assignments/partB_2.png
+week6/assignments/partB_3.png
+week6/assignments/partC_figure.png
+week6/assignments/partC_note.md
+
+# Student output from the week 7 dashboard task
+week7/assignments/_selfcheck.png
+week7/assignments/_dashlib_selfcheck.png
+week7/assignments/clean/
+week7/assignments/partA_audit.txt
+week7/assignments/partA_decisions.md
+week7/assignments/partB_1.png
+week7/assignments/partB_2.png
+week7/assignments/partB_3.png
+week7/assignments/partB_4.png
+week7/assignments/partC_default.png
+week7/assignments/partC_contract.md
+week7/assignments/partD_screen.png
+week7/assignments/partE_note.md
+
+# Completed Week 6/7 submissions: retain reproducible deliverables.
+!week6/assignments/part*
+!week7/assignments/part*
+!week6/assignments/clean/
+!week6/assignments/clean/**
+!week7/assignments/clean/
+!week7/assignments/clean/**
+/tmp/
+**/run_*.log
